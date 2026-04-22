@@ -35,6 +35,10 @@
   "author": "zhang pan",
   "license": "ISC",
   "description": "This is a provider of HWInfo parser services for craft-plugin-dev.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Virginanon/hwinfo-parser.git"
+  },
   "devDependencies": {
     "@types/node": "^25.6.0",
     "@types/ws": "^8.18.1",
