@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "target": "ES2022",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+
+    "lib": ["ES2022"],
+    "types": [],
+
+    "rootDir": "src",
+    "outDir": "dist",
+    "declarationDir": "dist/types",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "tsBuildInfoFile": "./node_modules/cache/tsc/tsconfig.base.tsbuildinfo"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": [
+    "src/browser/**/*.ts",
+    "src/**/*.browser.ts",
+    "src/node/**/*.ts",
+    "src/**/*.node.ts",
+    "src/browser/**/*.tsx",
+    "src/**/*.browser.tsx",
+    "src/node/**/*.tsx",
+    "src/**/*.node.tsx"
+  ]
+}

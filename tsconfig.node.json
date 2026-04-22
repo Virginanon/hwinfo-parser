@@ -1,0 +1,21 @@
+{
+  "references": [{ "path": "./tsconfig.base.json" }],
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "lib": ["ES2022"],
+    "types": ["node"],
+    "tsBuildInfoFile": "./node_modules/cache/tsc/tsconfig.node.tsbuildinfo"
+  },
+  "include": ["src/**/*.node.ts", "src/**/*.node.tsx", "src/node/**/*.ts", "src/node/**/*.tsx"],
+  "exclude": [
+    "src/**/*.browser.ts",
+    "src/**/*.browser.tsx",
+    "src/browser/**/*.ts",
+    "src/browser/**/*.tsx",
+    "node_modules",
+    "dist",
+    "**/*.test.ts",
+    "**/*.spec.ts"
+  ]
+}
