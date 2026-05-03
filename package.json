@@ -47,5 +47,8 @@
   },
   "dependencies": {
     "ws": "^8.20.0"
+  },
+  "peerDependencies": {
+    "craft-plugin-dev": "^1.0.1"
   }
 }
