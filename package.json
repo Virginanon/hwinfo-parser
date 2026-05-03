@@ -1,6 +1,6 @@
 {
   "name": "hwinfo-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/index.node.js",
   "browser": "./dist/index.browser.js",
   "types": "./dist/types/index.browser.d.ts",
